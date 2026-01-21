@@ -1,4 +1,4 @@
-# 🔌 Claude Code Plugins
+# 🔌 TMPDIR Claude Code Plugins
 
 A collection of Claude Code plugins I use to enhance development workflows.
 
