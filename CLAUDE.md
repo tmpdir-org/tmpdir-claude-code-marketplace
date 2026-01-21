@@ -134,7 +134,7 @@ To test plugins locally during development:
 
 ```json
 {
-	"name": "local-marketplace",
+	"name": "tmpdir",
 	"plugins": [
 		{
 			"source": "file:///scratch/claude/doc-driven-coding"

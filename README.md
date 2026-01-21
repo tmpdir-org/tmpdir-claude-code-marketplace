@@ -18,13 +18,13 @@ changes based on markdown documentation.
 1. Add this marketplace to Claude Code:
 
 ```bash
-/plugin marketplace add cbrake/claude-plugins
+/plugin marketplace add tmpdir-org/tmpdir-claude-code-marketplace
 ```
 
 2. Install the plugin:
 
 ```bash
-/plugin install doc-driven-development@cbrake
+/plugin install doc-driven-development@tmpdir
 ```
 
 ### 🛠️ Local Development
@@ -36,7 +36,7 @@ For local plugin development and testing, create a local marketplace:
 /plugin marketplace add /path/to/claude-plugins
 
 # Install from local marketplace
-/plugin install doc-driven-development@cbrake
+/plugin install doc-driven-development@tmpdir
 ```
 
 ## 🔄 Updating
@@ -44,7 +44,7 @@ For local plugin development and testing, create a local marketplace:
 To get the latest:
 
 ```bash
-/plugin marketplace update cbrake
+/plugin marketplace update tmpdir
 ```
 
 This appears to update all the plugins from this marketplace.
@@ -96,4 +96,4 @@ MIT
 - [@jsnapoli1](https://github.com/jsnapoli1)
 
 If you use this, please star the repo and
-[let us know](https://github.com/cbrake/claude-plugins/discussions).
+[let us know](https://github.com/tmpdir-org/tmpdir-claude-code-marketplace/discussions).
