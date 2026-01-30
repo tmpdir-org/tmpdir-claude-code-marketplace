@@ -161,7 +161,7 @@ The `/release` command automates version releases by:
 - Updating version numbers in manifest files
 
 **Manifest files** (updated by `/release`):
-- `.claude-plugin/plugin.json` - Plugin metadata containing `"version"` field
+- `doc-driven-development/.claude-plugin/plugin.json` - Plugin metadata containing `"version"` field
 
 The `/tag` command handles git tagging separately:
 - Switches to main/master branch

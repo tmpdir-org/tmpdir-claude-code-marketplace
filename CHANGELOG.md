@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.1.2] - 2026-01-30
+
 ### Added
 
 - `/tag` command to create and push git tags separately from releases.
