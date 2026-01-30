@@ -27,6 +27,7 @@ doc-driven-development/
 │   ├── update-docs.md       # /update-docs command definition
 │   ├── review.md            # /review command definition (multi-agent code review)
 │   ├── release.md           # /release command definition
+│   ├── tag.md               # /tag command definition
 │   └── skip.md              # /skip command definition
 └── plans/                   # Implementation plans
     └── plans.md             # Plan tracking (one **IN PROGRESS** at a time)
@@ -158,7 +159,11 @@ The `/release` command automates version releases by:
 - Updating the CHANGELOG.md from `[Unreleased]` to the release version
 - Adding a new `[Unreleased]` section for future changes
 - Updating version numbers in manifest files
-- Creating a git tag
 
 **Manifest files** (updated by `/release`):
 - `.claude-plugin/plugin.json` - Plugin metadata containing `"version"` field
+
+The `/tag` command handles git tagging separately:
+- Switches to main/master branch
+- Extracts the latest version from CHANGELOG.md
+- Creates and pushes the git tag

@@ -112,7 +112,7 @@ your documentation to match.
 The command also updates the **IN PROGRESS** plan (from `plans/plans.md`) with
 implementation details and technical decisions.
 
-### 🏷️ `/release [version]`
+### ✨ `/release [version]`
 
 Automates the release process by:
 
@@ -120,7 +120,6 @@ Automates the release process by:
   with the current date
 - Updating version numbers in all manifest files (e.g.,
   `.claude-plugin/plugin.json`)
-- Creating a git tag for the release
 
 **Usage:**
 
@@ -129,6 +128,14 @@ Automates the release process by:
 
 The command does not automatically commit or push changes, allowing you to
 review before finalizing.
+
+### 🏷️ `/tag`
+
+Automate the creation of tags by:
+
+- Checking out main/master branch.
+- Extract latest version from `CHANGELOG.md`.
+- Tag with that version and then push tags.
 
 ### 🔍 `/review`
 

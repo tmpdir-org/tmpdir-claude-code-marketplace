@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+### Added
+
+- `/tag` command to create and push git tags separately from releases.
+
+### Changed
+
+- `/release` no longer creates git tags. Use `/tag` after committing the release.
+
 ## [1.1.1] - 2026-01-30
 
 - update review to not tag files
