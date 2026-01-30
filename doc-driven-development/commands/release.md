@@ -31,16 +31,11 @@ Steps:
    - Update the version value to match the release version
    - Preserve all other fields and formatting
 
-6. Create a git tag for the version:
-   - Format: `v<version>` (e.g., `v1.0.7`)
-   - Use `git tag v<version>` to create the tag
-
-7. Provide a summary showing:
+6. Provide a summary showing:
    - The version that was released
    - The date applied to the changelog
    - Which manifest files were updated
-   - The git tag created
-   - Remind the user to commit the changes and push with `git push --tags`
+   - Remind the user to commit the changes, tag and push with `git push --tags`
 
 Important: Do not push tags or commit changes automatically. Let the user review
 and push when ready.
