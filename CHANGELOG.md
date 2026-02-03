@@ -14,7 +14,7 @@
 
 ## [1.1.1] - 2026-01-30
 
-- update review to not tag files
+- update `/release` to not tag files
 
 ## [1.0.9] - 2026-01-20
 
