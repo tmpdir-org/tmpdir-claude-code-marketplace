@@ -6,8 +6,9 @@ A collection of Claude Code plugins I use to enhance development workflows.
 
 ### 📝 Doc-Driven Development
 
-A documentation-driven development plugin that helps you plan and implement code
-changes based on markdown documentation.
+A light-weight documentation-driven development plugin that helps you plan and implement code
+changes based on markdown documentation, and execute a complete development
+cycle.
 
 [View Plugin Documentation](./doc-driven-development/README.md)
 
