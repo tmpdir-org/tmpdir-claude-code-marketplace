@@ -1,6 +1,6 @@
 # 📝 Doc-Driven Development
 
-A documentation-driven development plugin for Claude Code. Write your
+A lightweight documentation-driven development plugin for Claude Code. Write your
 documentation first, then let Claude implement the code to match.
 
 The goal is to embed AI in a normal development workflow, not create new
