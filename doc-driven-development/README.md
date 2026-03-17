@@ -347,3 +347,4 @@ review files.
 - https://github.com/gemini-cli-extensions/conductor
 - https://github.com/EveryInc/compound-engineering-plugin
 - https://github.com/gsd-build/get-shit-done
+- https://github.com/nWave-ai/nWave
